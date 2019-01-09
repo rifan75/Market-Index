@@ -9,7 +9,6 @@ path.candle.up {fill: #00AA00;stroke: #00AA00;}
 path.candle.down {fill: #FF0000;stroke: #FF0000;}
 </style>
 <body>
-	@include('partials.nav')
 
 	<div id="wrapper">
 		@section('alerts')
@@ -24,32 +23,11 @@ path.candle.down {fill: #FF0000;stroke: #FF0000;}
 			<div class="row">
 				<div class="col-sm-12">
         	<div class="row">
-            <div class="col-sm-4 text-center">
+            <div class="col-sm-12 text-center">
         			<div class="jumbotron">
-        				<h1>Byvest
+        				<h1>Market Index
         					<span class="badge">alpha</span></h1>
         			</div>
-        			@if (!Auth::user())
-        			<p><a class="btn btn-success btn-lg" href="/login" role="button">Sign In</a></p>
-        			@endif
-        		</div>
-            <div class="col-sm-4 text-center">
-        			<div class="jumbotron">
-        				<h1>Byvest
-        					<span class="badge">alpha</span></h1>
-        			</div>
-        			@if (!Auth::user())
-        			<p><a class="btn btn-success btn-lg" href="/login" role="button">Sign In</a></p>
-        			@endif
-        		</div>
-            <div class="col-sm-4 text-center">
-        			<div class="jumbotron">
-        				<h1>Byvest
-        					<span class="badge">alpha</span></h1>
-        			</div>
-        			@if (!Auth::user())
-        			<p><a class="btn btn-success btn-lg" href="/login" role="button">Sign In</a></p>
-        			@endif
         		</div>
         	</div>
         </div>
